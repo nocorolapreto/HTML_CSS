@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando comLinks</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+        <p>Você pode acessar o <a href="https://gustavoguanabara.github.io"target="_blank" rel="external">repositorio publico do Guanabara np GitHub</a> </p>
+<!--
+para colocar links no seu site use a tag (a) e coloque a URL dentro da referência a hipertexto (href) e preonto.
+Mas caso queira que o link seja aberto em uma nova guia mantendo seu site aberto após a URl "target="_blank" rel="external"
+-->
+        <p>Você tambem pode acessar o <a href="https://www.youtube.com/watch?v=LeLnlT-ZKw8"target="_blank" rel="external">canal publico no youtube</a> </p>
+
+    <h2>Usando links internos</h2>
+        <p>Esta é a primeira página do site. Se você quiser pode acessar também a <a href="pag002.html"rel="next">minha segunda página</a></p>
+<!--para acessar links internos só é nescessário usa a tag (a) e depois escrever a pagina desejada ou usar as tclas (ctrl espaço).
+para deixar o site mais semantico use rel="next" ou rel="prev" deixando claro pro navegador qual é a proxima pagina e qual a pagina anterior-->
+<!--REFERNTE AS PAGINAS 2 E 3 
+para acessar link internos so que em uma nova pagina utilize (cntl espaço) para escolher de qual pasta você quer escolher 
+e para voltar utilize (../(nome do arquivo para retornar)) -->
+<!-- Use rell=nofollow para deixar oferecimentos a outros sites,marcas etc deixando claro que voce não tem ligaçao com a outra marca-->
+ <h1>Links para dawnload</h1>
+ 
+ <li><a href="livro/meulivro.pdf"dawnload="meulivro.pds"type=application/pdf>Baixar o livro em PDF</a></li>
+ <li><a href="livro/meulivro.zip"dawnload="meulivro.pds"type=application/pdf>Livro compactado</a></li>
+ <!--Para fazer dawloads use a tag acima e anexe o arquivo do pdf ode esta o "meu livro" como visto acima urilize tambem o type para indicar que nao é um link qualquer e sim um link de um arquivo instalavel 
+ se houver duvidas quanto a qual type usa consulte o site media types-->
+    </body>
+</html>
