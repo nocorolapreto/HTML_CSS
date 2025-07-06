@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding:0;
+    
+}
+header {
+    position:relative;
+    padding: 30px;
+    background-color: black;
+    color: beige;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+ }
+ 
+ menu >h1 {
+    position:relative;
+    left:50%;
+    top:50%;
+
+   
+    
+ }
