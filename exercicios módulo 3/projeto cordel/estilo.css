@@ -24,7 +24,8 @@ header {
 
  }
  header > a:hover {
-        transition: all;
+        transition: all
+        ;
 
  }
 
