@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: "font-cordel";
+    src: url(pacote-d012/fonte-cordel/Sriracha-Regular.ttf) format(truetype);
+}
+
+
+
+* {
+    height: 100vh;
+    margin: 0;
+    padding:0;
+    
+}
+header {
+    position:relative;
+    padding: 55px;
+    background-color: black;
+    color: beige;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+    text-align: center;
+    
+    height: 20%;
+ }
+ header > h2 {
+    color: #f00404;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 16px;
+ }
+ header > h2 > a {
+    color: #FFFFFF;
+     text-decoration: none;
+     transition: all 0.5s ease;
+
+
+ }
+ header > h2 > a:hover {
+    transition: all 0.3s ease;
+        text-decoration:underline;
+        scale: 1.5;
+        font-size: 18px;
+
+ }
+ p {
+    text-align: left;
+    white-space: pre-line;
+    font-family: font-cordel,'Courier New', Courier, monospace;
+    font-size: 25px;margin-left: 30px;
+    margin-bottom: 25%;
+    line-height: 2.0;
+
+ }
+
+ p.branco {
+
+  width: 45%;
+  height: 60%;
+  background-color: #00000024;
+  padding: 10px;
+
+ }
+
+
+ 
