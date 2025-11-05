@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outra Tabelinha </title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    caption {
+        font-size: 1.4em ;
+        border: solid black  ;
+        padding: 10px ; 
+    }
+
+    tr,th {
+        border:solid black 2px ;
+
+    }
+    .destaque {
+         background-color: chartreuse;
+    }
+</style>
+<body>
+    <h1> Exercicio de Tabela</h1>
+    <table>
+        <colgroup> 
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col"> Nome </th>
+            <th scope="col"> Sexo </th>
+            <th scope="col"> Idade </th>
+            <th scope="col"> Profissão </th>
+        </tr>
+
+        <tr> 
+            <th>Ana Maria</th>
+            <th>F</th>
+            <th>25</th>
+            <th>Jornalista</th>
+        </tr>
+
+        <tr>
+            <th>Cláudio</th>
+            <th>M</th>
+            <th>28</th>
+            <th>Programador</th>
+        </tr>
+
+        <tr class="destaque"> 
+            <th>Gustavo</th>
+            <th>M</th>
+            <th>19</th>
+            <th>Vendedor</th>
+
+            <tr>
+                <th>Maria</th>
+                <th>F</th>
+                <th>39</th>
+                <th>Médica</th>
+            </tr>
+
+            <tr>
+                <th>Otávio</th>
+                <th>M</th>
+                <th>22</th>
+                <th>Nutricionista</th>
+            </tr>
+        </tr>
+    </table>
+    
+</body>
+</html>
