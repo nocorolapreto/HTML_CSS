@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+</head>
+<style>
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: #f0f0f0;
+}
+
+iframe {
+    width: 95vw;
+    height: 400px;}
+
+    h1.doc{
+        text-align: center;
+        color: gray;
+        size:bolder;
+        font-weight: 400;
+    }
+
+    
+</style>
+<body>
+    <h1>Faça Sua Escolha</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero delectus adipisci voluptate. Assumenda magnam, optio voluptas reprehenderit adipisci commodi facilis obcaecati iusto mollitia provident repellat. Blanditiis explicabo architecto amet provident.
+    Esse, amet atque. Consequatur, repudiandae rem nesciunt quisquam natus atque beatae excepturi ab ratione nam assumenda cum itaque velit voluptatem tempore animi saepe officiis in aperiam delectus illo! Expedita, debitis.
+    Omnis obcaecati eos eligendi in. Rerum id rem adipisci incidunt in asperiores eius, provident magni odio doloribus tenetur ipsum similique veniam tempore quidem maxime ipsa officia enim sunt, explicabo obcaecati.
+    Odit iure quos accusantium. Soluta dolor excepturi natus similique deserunt distinctio. Magni alias, ducimus possimus natus laboriosam ratione quae. Harum, animi id temporibus aliquid ullam quia ab reprehenderit modi cumque.p>
+     <ul>
+        <li> <a href="paginas.extras.html/pag001.html" target="frame"> primeira pagina </a></li>
+        <!-- links direcionandos para qual iframe ir com o comando "name" -->
+        <li> <a href="paginas.extras.html/pag002.html" target="frame"> seguda pagina </a></li>
+        <li> <a href="paginas.extras.html/pag003.html" target="frame"> terceira pagina </a></li>
+     </ul>
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eum distinctio perspiciatis reprehenderit nisi accusamus ratione hic corrupti necessitatibus quam, architecto vel ipsam asperiores excepturi est pariatur in amet nemo?
+    Dicta, cumque! Vero at repudiandae architecto  natus dolorum vitae. Minus consequuntur, sunt iusto earum sequi ex consectetur cupiditate. Sunt repudiandae mollitia facere odio placeat magni laudantium earum, nobis eum et.
+    Ipsa voluptas facilis minima iusto esse voluptatibus expedita delectus vel enim recusandae architecto error laboriosam illum amet odit similique aliquid at laborum, eum dolorum facere incidunt rem. Deserunt, unde asperiores!
+    Accusantium odit vitae enim, consectetur voluptate quo cumque assumenda hic iure a excepturi consequatur fugit eveniet repellendus id tenetur aliquam minus minima eius neque non sit! Quis dolorum sapiente ullam.</p>
+    
+     <iframe id="tela" name="frame" srcdoc='
+     <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1.doc {
+            color: gray;
+            font-weight: 400;
+        }
+    </style>
+    <h1 class="doc">Selecione Uma das Opções Acima</h1>
+    Infelizmente Seu Navegador Não é compatível com isso 
+    
+
+'></iframe>
+<!-- sim o estilo tem que ser aplicado dentro do (srcdoc='
+ <style> x,y, etc
+
+</style>
+
+<body>
+    <h1> É aqi que comeca  conteudo do iframe somente quando esta co o comando src doc
+
+ ' -->
+
+<!-- o iframe em sua configuração padrão alterada contendo agr if e name(usei para trazer o conteudo do link para dentro do iframe )  -->
+
+</body> 
+</html>
+
+      
