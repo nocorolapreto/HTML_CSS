@@ -98,7 +98,10 @@ section#img01 {
 section#img02 {
 
     background-image: url(pacote-d012/imagens/background002.jpg);
-    background-position: ;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
 
 }
 
